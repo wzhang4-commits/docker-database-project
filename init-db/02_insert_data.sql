@@ -23,14 +23,15 @@ INSERT INTO users (full_name, email, role, duo_authenticated, department_id) VAL
 INSERT INTO lost_reports
 (user_id, item_name, description, category, color, date_lost, location_id, contact_info, status)
 VALUES
-(1, 'Water Bottle', 'Blue Hydro Flask lost near the Commons', 'Bottle', 'Blue', '2026-03-10', 1, 'wzhang4@umbc.edu', 'lost'),
+(1, 'Water Bottle', 'Black Hydro Flask lost in the Game Room', 'Bottle', 'Black', '2026-03-10', 1, 'wzhang4@umbc.edu', 'lost'),
 (1, 'Student ID Card', 'UMBC student ID lost near library entrance', 'ID Card', 'White', '2026-03-11', 4, 'wzhang4@umbc.edu', 'lost');
+
 
 -- Insert found items
 INSERT INTO found_items
 (logged_by_user_id, item_name, description, category, color, date_found, location_id, status, high_value_flag, retention_days)
 VALUES
-(2, 'Water Bottle', 'Blue metal bottle found at Commons desk', 'Bottle', 'Blue', '2026-03-11', 1, 'found', FALSE, 30),
+(2, 'Water Bottle', 'Black metal bottle/hydro flask found at Commons desk', 'Bottle', 'Black', '2026-03-11', 1, 'found', FALSE, 30),
 (3, 'Student ID Card', 'UMBC ID card turned in to campus police', 'ID Card', 'White', '2026-03-12', 2, 'found', TRUE, 395);
 
 -- Insert matches
