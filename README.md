@@ -49,11 +49,13 @@ docker-database-project/
 ```bash
 docker compose up
 ------
-2. Run this on docker desktop exec tab:
+2. Run this on bash/vsc terminal:
 docker exec -it my_project_db psql -U student1 -d projectdb
-
 ------
-3. Use these commands on docker desktop exec tab to check tables and sql:
+3.  Run this on docker desktop exec tab:
+psql -U student1 -d project db
+------
+4. Use these commands on docker desktop exec tab to check tables and sql:
 To view tables:  \dt
 
 To run sample queries:
