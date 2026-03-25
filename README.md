@@ -1,6 +1,6 @@
 # UMBC Lost & Found Database (Docker Project)
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a centralized Lost & Found database system for UMBC using PostgreSQL and Docker.
 
 The system replaces manual logbooks with a digital solution that allows:
@@ -14,7 +14,7 @@ This project is part of IS 436: Structured Systems Analysis and Design.
 
 ---
 
-## 👥 Team Members
+##  Team Members
 - Wilson Zhang (Project Manager)
 - Michael Thomas (Quality Assurance)
 - Mete Gorgulu (Software Engineer)
@@ -23,7 +23,7 @@ This project is part of IS 436: Structured Systems Analysis and Design.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - PostgreSQL 15
 - Docker & Docker Compose
 - SQL
