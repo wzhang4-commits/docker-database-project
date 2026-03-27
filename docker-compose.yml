@@ -4,8 +4,10 @@ services:
   db:
     image: postgres:15
     container_name: my_project_db
-    env_file:
-      - .env
+    environment:
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: student123
+      POSTGRES_DB: projectdb
     ports:
       - "5432:5432"
     volumes:
