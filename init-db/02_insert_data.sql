@@ -14,7 +14,7 @@ INSERT INTO locations (location_name, department_id) VALUES
 
 -- Insert users
 INSERT INTO users (full_name, email, role, duo_authenticated, department_id) VALUES
-('Wilson Zhang', 'wzhang4@umbc.edu', 'student', TRUE, 1),
+('Justin Medina', 'jmedina5@umbc.edu', 'student', TRUE, 1),
 ('Campus Center Staff', 'staff1@umbc.edu', 'staff', TRUE, 1),
 ('Police Officer', 'officer1@umbc.edu', 'police', TRUE, 2),
 ('Dorm Staff', 'dormstaff1@umbc.edu', 'staff', TRUE, 3);
